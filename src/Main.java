@@ -18,5 +18,16 @@ public class Main {
 
         int choice = input.nextInt();
 
+        switch (choice) {
+          case 1:
+            d1.DisplayInfo();
+            break;
+          case 2:
+            p1.DisplayInfo();
+            break;
+          default:
+            System.out.println("Invalid Option");
+        }
+
         }
     }
